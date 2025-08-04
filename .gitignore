@@ -1,0 +1,28 @@
+# Entornos virtuales
+venv
+.venv
+
+# Python bytecode
+__pycache__
+.py[cod]
+.so
+
+# Archivos de logs
+.log
+
+# Cache de pytest
+.pytest_cache
+
+# Configuración de IDEs
+.vscode
+.idea
+
+# Archivos temporales
+.swp
+.swo
+
+# MacOS
+.DS_Store
+
+# Docker
+.env
