@@ -48,10 +48,10 @@ Puedes acceder a la documentación interactiva de la API (Swagger UI) en:
 - **POST `/upload/{employees}`**  
  Cargar datos desde archivos CSV de los empleados a la base de datos.
 
-- **GET `/hired-by-quarter`**  
+- **GET `/metrics/hired-by-quarter`**  
   Consultar cantidad de empleados contratados por trabajo y departamento en 2021, divididos por Q.
 
-- **GET `/above-average-hires`**  
+- **GET `/metrics/above-average-hires`**  
   Listar departamentos que contrataron más empleados que el promedio en 2021.
 
 - **GET `/`**  
