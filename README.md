@@ -39,13 +39,13 @@ Puedes acceder a la documentación interactiva de la API (Swagger UI) en:
 
 ## 🛣️ Endpoints principales
 
-- **POST `/deparments`**  
+- **POST `/upload/{deparments}`**  
   Cargar datos desde archivos CSV de los departamentos a la base de datos.
 
-- **POST `/jobs`**  
+- **POST `/upload/{jobs}`**  
   Cargar datos desde archivos CSV de los tipos de trabajos a la base de datos.
   
-- **POST `/employees`**  
+- **POST `/upload/{employees}`**  
  Cargar datos desde archivos CSV de los empleados a la base de datos.
 
 - **GET `/hired-by-quarter`**  
